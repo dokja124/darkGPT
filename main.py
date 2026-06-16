@@ -23,10 +23,10 @@ AI_SEMAPHORE = asyncio.Semaphore(AI_CONCURRENCY_LIMIT)
 load_dotenv()
 
 # متغیر های ثابت
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8785473878:AAHQgPPbqRuNSWFL9DU0cH1w0oF-gL6Yuvc")
 DATABASE_PASSWORD = os.environ.get("DATABASE_PASSWORD")
-BOT_USERNAME = os.environ.get("BOT_USERNAME")
-OWNER_ID = os.environ.get("OWNER_ID")
+BOT_USERNAME = os.environ.get("Diwate_AI")
+OWNER_ID = os.environ.get("7598085019")
 ADMIN_IDS = [int(OWNER_ID)]
 SYSTEM_PROMPT = os.environ.get("SYSTEM_PROMPT")
 # GOOGLE_API_KEY_1 = os.environ.get("GOOGLE_API_KEY_1")
