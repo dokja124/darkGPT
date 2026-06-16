@@ -8,7 +8,7 @@ LIARA_BASE_URL = "https://ai.liara.ir/api/6940fe21363673561d9a83cb/v1"
 LIARA_API_KEY = os.getenv("LIARA_API_KEY")
 LIARA_MODEL = "google/gemini-2.0-flash-001"
 
-client = OpenAI(base_url=LIARA_BASE_URL, api_key=LIARA_API_KEY)
+client = OpenAI(base_url=LIARA_BASE_URL, api_key=org-CSTLuQsdmDWngiACu6s3ZzhB)
 
 def generate_with_liara(full_prompt):
     try:    
